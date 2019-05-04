@@ -11,7 +11,7 @@ In this example, I have created an account in the application and it connects to
 App has been extended:
 Exchange of tokens can take place with Ethereum and tokens can be locked in the app.
 
-Code Architechture:
+*Code Architechture:*
 
 [Line 56](https://github.com/Abhik1998/Gotoken/blob/38947a6ee8e0ecfa474ad0a6fe9353575157dd91/eth_project/app/main.go#L56)
  Till this line we have the code to add an account connecting to Ethereum for transferring tokens from and to centralised
