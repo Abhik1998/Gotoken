@@ -44,3 +44,7 @@ All of these refer to address from which tokens are to be transferred to the rec
  
  The last method provides option to user to set his address and paraphrase for security.
  
+ **Testing**
+*Ginkgo* is used as testing framework for writing the unit tests.
+.........Tests are on verge of completion
+ 
