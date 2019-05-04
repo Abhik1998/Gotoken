@@ -16,7 +16,7 @@
 {"address":"46fffc00a18e3ffe9482af080091e04f44ed8a21","crypto":{"cipher":"aes-128-ctr","ciphertext":"a80e844f688614efda6ef08570973e1d29a9a62a29794958d2fa0f56d505dff3","cipherparams":{"iv":"f5490a2439e1be633409f9c9077b3661"},"kdf":"scrypt","kdfparams":{"dklen":32,"n":262144,"p":1,"r":8,"salt":"024021aa74d6eb1f612df85949cf78c4c76f5f82e6bc88cb56f81e94d153759a"},"mac":"76ce61872f8fb29a216ddceb13dc631108d05a1d83f367f8127a38eb3e7e1c40"},"id":"10b78cf2-bbf9-428d-9117-4f6bf284c13d","version":3}
 ```
 Next steps:
-To use the tokens and maintain track of all the tokens used by the app.
+To maintain track of all the tokens used by the app.
 
 Points covered:
 1) The smart contract keeps a track of the issued tokens and can return balance after a transaction ,i.e, of the
@@ -26,6 +26,6 @@ Points covered:
 3) Since the smart contract is using trnsactions taken on behalf of ethereum and returns balance of tokens present
    with Ethereum so security of Ethereum is assured.
 4) A centralised appliction built with Golang which keeps a track of the account to be used for tokens transfer with 
-   Ethereum.
+   Ethereum . Additionaly, transactions can be carried out with the tokens present in the application
 
    
